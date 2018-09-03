@@ -17,8 +17,8 @@ class Post
   end
   
   def author_name 
-    if @author == self
-      return self 
+    if self.author == self
+      return self.author 
     else 
       return nil 
     end 
